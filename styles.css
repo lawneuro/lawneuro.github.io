@@ -1,0 +1,16 @@
+/* css styles */
+
+/* Base link style (text only) */
+main a {
+  color: #1a365d;          /* blue link */
+  text-decoration: none;
+  padding: 0.05em 0.15em;  /* tiny padding so highlight looks intentional */
+  border-radius: 0.2em;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Hover highlight */
+main a:hover {
+  background-color: #e2ecf6; /* light blue highlight */
+  color: #1a365d;
+}
